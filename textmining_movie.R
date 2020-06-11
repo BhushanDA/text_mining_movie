@@ -1,10 +1,8 @@
-
-
-
+#######Libraries#######
 library(rvest)
 library(magrittr)
 library(XML)
-
+##########Importing Movie Reviews############
 interstellar<-NULL
 url1<-"http://www.imdb.com/title/tt0816692/reviews?ref_=tt_ov_rt"
 for(i in 0:10){
